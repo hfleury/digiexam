@@ -1,1 +1,1 @@
-CREATE DATABASE billodb OWNER rootuser;
+CREATE DATABASE digidb OWNER rootuser;

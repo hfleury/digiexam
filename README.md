@@ -1,10 +1,17 @@
-# henrybillogram
-Billogram test from Henry
+# Henry Digiexam test
+This is the Digiexam test by Henry Cardoso.
+I used this website to know how to calculate the [GPA](https://www.scholaro.com/gpa-calculator/)
 
 ## Database
 The database is in a Docker container to start it run the command:
 ```shell
 docker compose up
+```
+
+## Run migrations
+Run the migrations using the command in Makefile.
+```shell
+make migrate
 ```
 
 ## Create migrations file
@@ -21,9 +28,9 @@ go test ./... -v
 
 ### Endpoints
 
-## POST
+## GET
 
-# Generate a discount code
+# Get 
 ■ The brand wants to create X number of discount codes
 Adding the headers `Blg-Brand-Id` and `Blg-Brand-Name` is necessary. It will check if the brand id and name are hardcoded in the middleware and it is inserted in the migrations.
 
