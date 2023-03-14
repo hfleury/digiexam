@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS public.grade_scale (
 );
 
 INSERT INTO public.grade_scale(scale_type)
-VALUES('percentage'),('fivepoint'),('twentypoint');
+VALUES ('letter'), ('twentypoint');
